@@ -9,16 +9,5 @@ namespace UserManagementSystem.Controllers
         {
             return View();
         }
-        public IActionResult Add()
-        {
-
-            return View();
-        }
-
-        public IActionResult Remove()
-        {
-
-            return View();
-        }
     }
 }
