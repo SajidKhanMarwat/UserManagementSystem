@@ -1,0 +1,21 @@
+﻿@model List<StdModel>
+
+
+@*<button type="submit">Add Student</button>
+<button type="submit">Update Student</button>
+<button type="submit">Delete Student</button>*@
+@*<button type="submit">Add New Student</button>*@
+
+<ul>
+
+
+    @{
+
+                @foreach (StdModel item in Model)
+                {
+                    <li>@item.Id</li>
+                    <li>@item.Name</li>
+                    <li>@item.Email</li>
+                }
+        }
+</ul>
