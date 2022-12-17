@@ -8727,9 +8727,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\khannsaj\\source\\repos\\UserManagementSystem\\UserManagementSystem\\UserManagementSystem.csproj",
-      "projectName": "UserManagementSystem",
-      "projectPath": "C:\\Users\\khannsaj\\source\\repos\\UserManagementSystem\\UserManagementSystem\\UserManagementSystem.csproj",
+      "projectUniqueName": "C:\\Users\\khannsaj\\source\\repos\\UserManagementSystem\\UserManagementSystem\\StudentManagementSystem.csproj",
+      "projectName": "StudentManagementSystem",
+      "projectPath": "C:\\Users\\khannsaj\\source\\repos\\UserManagementSystem\\UserManagementSystem\\StudentManagementSystem.csproj",
       "packagesPath": "C:\\Users\\khannsaj\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\khannsaj\\source\\repos\\UserManagementSystem\\UserManagementSystem\\obj\\",
       "projectStyle": "PackageReference",

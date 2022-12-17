@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AwKVMM+w0E9MeQQ32CqjhXmN3IiyYVSKMkOMKcM27lGY93OzGZ0tUV05DF3lQp/1Y0EP+o7DiCW77ls7o11BnQ==",
+  "dgSpecHash": "ehabIS+vWTooWPQHT8oTqhKugIvQxdzoLNtu4BrvA2v3kp/9K2xUqrzmPP7BODAQlXxB2+WvHWwD7vYSCOzrSg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\khannsaj\\source\\repos\\UserManagementSystem\\UserManagementSystem\\UserManagementSystem.csproj",
+  "projectFilePath": "C:\\Users\\khannsaj\\source\\repos\\UserManagementSystem\\UserManagementSystem\\StudentManagementSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\khannsaj\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\khannsaj\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
