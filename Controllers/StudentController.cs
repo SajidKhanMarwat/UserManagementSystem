@@ -6,6 +6,8 @@ namespace UserManagementSystem.Controllers
 {
     public class StudentController : Controller
     {
+        public StudentController() { 
+        }
 
         public IActionResult Index()
         {
@@ -23,8 +25,33 @@ namespace UserManagementSystem.Controllers
         [HttpPost]
         public IActionResult Add(StdModel stdObj)
         {
-            Services.StudentAllData.Add(stdObj);
-            return RedirectToAction("Index", stdObj);
+            StudentAllData.Add(stdObj);
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public IActionResult Delete()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Delete(StdModel stdDelete)
+        {
+            StudentAllData.Delete(stdDelete);
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public IActionResult Update()
+             
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Update(StdModel stdUpdate)
+        {
+            StudentAllData.Update(stdUpdate);
+            return RedirectToAction("Index");
         }
     }
 }

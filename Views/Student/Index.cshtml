@@ -1,21 +1,30 @@
 ﻿@model List<StdModel>
 
 
-@*<button type="submit">Add Student</button>
-<button type="submit">Update Student</button>
-<button type="submit">Delete Student</button>*@
-@*<button type="submit">Add New Student</button>*@
+<form>
+    <a href="\Student\Add">Add New User</a>
+    <a href="\Student\Update">Update User</a>
+    <a href="\Student\Delete">Delete User</a>
+</form>
 
-<ul>
+<table>
+    <tr>
+        @if(Model.Count > 0){
 
-
-    @{
-
-                @foreach (StdModel item in Model)
+                    @foreach (StdModel item in Model)
                 {
-                    <li>@item.Id</li>
-                    <li>@item.Name</li>
-                    <li>@item.Email</li>
+
+                        <td>@item.Id</td>
+                        <td>@item.Name</td>
+                        <td>@item.Email</td>
                 }
         }
-</ul>
+        else
+        {
+                <h2>There is no Student Present, please add new user first</h2>
+            <form>
+                <a href="\Student\Add">Add New User</a>
+            </form>
+        }
+      </tr>  
+</table>
